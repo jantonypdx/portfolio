@@ -1857,6 +1857,7 @@ article:last-child {
 }
 
 .image.avatar48 {
+  z-index: 25;
   width: 48px;
   height: 48px;
   background: #f00;
@@ -2372,14 +2373,16 @@ button:active,
 
 #main > section.one {
   background-color: #81918e;
-  background-image: url("../../images/pic07.jpg");
+  background-image: url("../../images/purple-background.jpg");
 }
 
 #main > section.two {
+  padding: 1.5em 0;
   background-color: #f5fafa;
 }
 
 #main > section.three {
+  padding: 1.5em 0;
   background-color: #ecf1f1;
 }
 
